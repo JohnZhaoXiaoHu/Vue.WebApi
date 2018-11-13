@@ -10,6 +10,7 @@ namespace Vue.WebApi.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class ValuesController : ControllerBase
     {
         // GET api/values
